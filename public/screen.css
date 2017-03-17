@@ -33,15 +33,17 @@ li {
 }
 
 .qoute {
+  color: inherit;
     position: relative;
-    right: 380px;
+    right: 340px;
     top: 30px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 25px 25px 0 0;
     border-color: #d3d3d3 transparent transparent;
-    margin-left: auto;
+
+      margin-left: auto;
     margin-right: auto;
 }
 
@@ -61,35 +63,40 @@ li {
 }
 
 header ul {
-    background-color: rgb(218, 218, 218);
+    border-color: #d3d3d3 transparent transparent;
+    background-color: rgb(209, 212, 214); transparent transparent ;
     padding: 5px;
-    border-radius: 3px;
-    margin-left: 20px;
-    margin-right: auto;
+    border-radius: 8px;
+    margin-left: 25px;
+
     opacity: 0.8;
-    justify-content: center;
+
     margin-bottom: 120px;
 }
 
 main {
     background-color: hsla(0, 0%, 0%, 0.6);
+    display: flex;
+    justify-content: center;
     /*display: flex;*/
 }
 
-.bruno {
+ .bruno {
     background-color: hsla(0, 0%, 0%, 0.6);
     display: flex;
-    justify-content: space-between;
+    *flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+
+
 }
 
 .bruno li {
-    border: 1em transparent;
-    border-radius: 1em;
-    margin: 1;
-    padding: 1em;
+    border: solid transparent;
+    border-radius: 10px;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .barone {
@@ -101,9 +108,9 @@ main {
 .barone p {
     border-bottom: 0.1em solid;
     border-bottom-left-radius: 10px;
-    border-bottome-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     margin-top: 0;
-    padding: 0;
+    padding: 10px;
     background-color: rgb(243, 243, 243)
 }
 
@@ -128,7 +135,7 @@ main {
 .bartwo p {
     border-bottom: 0.1em solid;
     border-bottom-left-radius: 10px;
-    border-bottome-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     margin-top: 0;
     background-color: rgb(243, 243, 243)
 }
