@@ -6,7 +6,6 @@ body {
     margin: 0;
     font: 16px font-family: 'Roboto', sans-serif;
     background-image: url("https://github.com/tiy-tpa-fee/assignments/blob/master/portfolio/assets/space.png?raw=true");
-    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -33,6 +32,19 @@ li {
     font-size: 20px;
 }
 
+.qoute {
+    position: relative;
+    right: 380px;
+    top: 30px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 25px 0 0;
+    border-color: #d3d3d3 transparent transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .top {
     display: flex;
     justify-content: center;
@@ -43,7 +55,8 @@ li {
 }
 
 .top img {
-    border: 1em transparent;
+    border: 1px;
+    transparent;
     border-radius: .2em;
 }
 
@@ -60,17 +73,18 @@ header ul {
 
 main {
     background-color: hsla(0, 0%, 0%, 0.6);
-
+    /*display: flex;*/
 }
 
 .bruno {
     background-color: hsla(0, 0%, 0%, 0.6);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
+
 .bruno li {
     border: 1em transparent;
     border-radius: 1em;
@@ -82,41 +96,75 @@ main {
     border-radius: 5px;
     margin-left: 10px;
     margin-right: 10px;
-    border: 0.1em solid;
-    border-radius: 10px;
 }
 
 .barone p {
-    background-color: rgb(243, 243, 243);
-    border: 0.1em solid;
-    border-radius: 5px;
-    margin: 0;
-    padding: 0px;
+    border-bottom: 0.1em solid;
+    border-bottom-left-radius: 10px;
+    border-bottome-right-radius: 10px;
+    margin-top: 0;
+    padding: 0;
+    background-color: rgb(243, 243, 243)
 }
+
 .barone img {
-  image-orientation:
+    height: 80px;
+    min-width: 100%;
+    background-image: url(https://github.com/tiy-tpa-fee/assignments/blob/master/portfolio/assets/react.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    border-top: solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
 }
 
 .bartwo {
     border-radius: 5px;
     margin-left: 10px;
     margin-right: 10px;
-    border: 0.1em solid;
-    border-radius: 10px;
 }
 
 .bartwo p {
-    background-color: rgb(243, 243, 243);
-    border: 0.1em solid;
-    border-radius: 5px;
-    margin: 0;
-    padding: 5px;
+    border-bottom: 0.1em solid;
+    border-bottom-left-radius: 10px;
+    border-bottome-right-radius: 10px;
+    margin-top: 0;
+    background-color: rgb(243, 243, 243)
+}
+
+.bartwo img {
+    height: 80px;
+    min-width: 100%;
+    background-image: url(https://github.com/tiy-tpa-fee/assignments/blob/master/portfolio/assets/code.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    border-top: solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    border-top: solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0;
 }
 
 .contact {
-  /*background-color: #00242e;*/
-  /*^^^temp color^^^*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #00242e;*/
+    /*^^^temp color^^^*/
+}
 
+.t {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
 }
 
 h2 {
@@ -131,23 +179,9 @@ span {
     font-weight: bolder;
 }
 
-
-.t {
-  border: 1em transparent;
-  border-radius: 1em;
-  margin: 1;
-  padding: 6px;
-display: block;
-flex-wrap: wrap;
-align-items: center;
-
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 footer {
-
+    display: flex;
+    justify-content: center;
     background-color: hsla(0, 0%, 0%, 0.6);
     font-size: 10px;
     color: #a4a6a4
