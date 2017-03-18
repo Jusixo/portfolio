@@ -15,7 +15,10 @@ body {
     padding: 0;
 }
 
+
 header {
+
+
     margin: 100px;
     width: 100%;
     height: 300px;
@@ -33,17 +36,14 @@ li {
 }
 
 .qoute {
-  color: inherit;
+
     position: relative;
     right: 340px;
     top: 30px;
-    width: 0;
-    height: 0;
-    border-style: solid;
+    border:solid transparent;
     border-width: 25px 25px 0 0;
     border-color: #d3d3d3 transparent transparent;
-
-      margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -59,50 +59,49 @@ li {
 .top img {
     border: 1px;
     transparent;
-    border-radius: .2em;
+    border-radius: 8px;
 }
 
 header ul {
     border-color: #d3d3d3 transparent transparent;
-    background-color: rgb(209, 212, 214); transparent transparent ;
+    background-color: rgb(211, 211, 211); transparent;
     padding: 5px;
     border-radius: 8px;
     margin-left: 25px;
-
     opacity: 0.8;
-
     margin-bottom: 120px;
 }
 
-main {
+.apps {
+   margin-top: -50px;
+   margin-left: auto;
+   margin-right: auto;
     background-color: hsla(0, 0%, 0%, 0.6);
     display: flex;
-    justify-content: center;
-    /*display: flex;*/
-}
 
- .bruno {
-    background-color: hsla(0, 0%, 0%, 0.6);
-    display: flex;
-    *flex-direction: row;
     justify-content: space-around;
     align-items: center;
 
 
 }
 
-.bruno li {
-    border: solid transparent;
-    border-radius: 10px;
-    border-radius: 10px;
-    margin: 0;
-    padding: 0;
+header .apps li {
+
+  padding: 10px;
+}
+
+main {
+  background-color: hsla(0, 0%, 0%, 0.6);
+  display: flex;
+  justify-content: center;
+
 }
 
 .barone {
+    margin-top: 280px;
     border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .barone p {
@@ -110,6 +109,8 @@ main {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding: 10px;
     background-color: rgb(243, 243, 243)
 }
@@ -125,11 +126,25 @@ main {
     border-top-right-radius: 10px;
     position: relative;
 }
+.keepreading {
+color: white;
+background-color: blue;
+width: 100px;
+border-radius: 5px;
+position: relative;
+left: 260px;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: auto;
+margin-right: auto;
+bottom: 32px;
+
+}
 
 .bartwo {
     border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .bartwo p {
@@ -149,11 +164,6 @@ main {
     border-top: solid transparent;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-size: cover;
-    background-position: center;
-    border-top: solid transparent;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     margin-bottom: 0;
 }
 
@@ -166,12 +176,16 @@ main {
     /*^^^temp color^^^*/
 }
 
+
 .t {
     list-style: none;
     display: flex;
     justify-content: center;
     display: flex;
-    margin: 10px;
+}
+.t li {
+  border: solid transparent;
+  padding: 5px;
 }
 
 h2 {
