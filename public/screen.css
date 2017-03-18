@@ -1,209 +1,64 @@
-html {
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">text-size-adjust: 100%;
-}
+html {}
+
+
+/*<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">*/
 
 body {
     margin: 0;
-    font: 16px font-family: 'Roboto', sans-serif;
-    background-image: url("https://github.com/tiy-tpa-fee/assignments/blob/master/portfolio/assets/space.png?raw=true");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #00242e;
-    /*^^^temp color^^^*/
-    margin: 0;
-    padding: 0;
+    font: 18px font-family: 'PT Sans Narrow', sans-serif;
+    background-color: gray;
 }
 
+.border {}
 
 header {
 
-
-    margin: 100px;
-    width: 100%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
 }
-
-li {
+.intro ul {
     list-style: none;
-    font-size: 20px;
 }
 
-.qoute {
-
-    position: relative;
-    right: 340px;
-    top: 30px;
-    border:solid transparent;
-    border-width: 25px 25px 0 0;
-    border-color: #d3d3d3 transparent transparent;
-    margin-left: auto;
-    margin-right: auto;
+.pics img {
+  border: solid;
+  border-radius: 10px;
+  margin-left: 10px;
 }
-
-.top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 280px;
-}
-
-.top img {
-    border: 1px;
-    transparent;
-    border-radius: 8px;
-}
-
-header ul {
-    border-color: #d3d3d3 transparent transparent;
-    background-color: rgb(211, 211, 211); transparent;
-    padding: 5px;
-    border-radius: 8px;
-    margin-left: 25px;
-    opacity: 0.8;
-    margin-bottom: 120px;
-}
-
-.apps {
-   margin-top: -50px;
-   margin-left: auto;
-   margin-right: auto;
-    background-color: hsla(0, 0%, 0%, 0.6);
-    display: flex;
-
-    justify-content: space-around;
-    align-items: center;
+ .pics {
+list-style: none;
+/*border: solid transparent;*/
+padding: 10px;
+margin: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
 
 
 }
 
-header .apps li {
-
-  padding: 10px;
-}
-
-main {
-  background-color: hsla(0, 0%, 0%, 0.6);
-  display: flex;
-  justify-content: center;
+main{
 
 }
 
-.barone {
-    margin-top: 280px;
-    border-radius: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
+.tiy img {
 
-.barone p {
-    border-bottom: 0.1em solid;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    background-color: rgb(243, 243, 243)
-}
-
-.barone img {
-    height: 80px;
-    min-width: 100%;
-    background-image: url(https://github.com/tiy-tpa-fee/assignments/blob/master/portfolio/assets/react.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    border-top: solid transparent;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    position: relative;
-}
-.keepreading {
-color: white;
-background-color: blue;
-width: 100px;
-border-radius: 5px;
-position: relative;
-left: 260px;
-margin-top: auto;
-margin-bottom: auto;
-margin-left: auto;
-margin-right: auto;
-bottom: 32px;
-
-}
-
-.bartwo {
-    border-radius: 5px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.bartwo p {
-    border-bottom: 0.1em solid;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-top: 0;
-    background-color: rgb(243, 243, 243)
-}
-
-.bartwo img {
-    height: 80px;
-    min-width: 100%;
-    background-image: url(https://github.com/tiy-tpa-fee/assignments/blob/master/portfolio/assets/code.png?raw=true);
-    background-size: cover;
-    background-position: center;
-    border-top: solid transparent;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-bottom: 0;
-}
-
-.contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /*background-color: #00242e;*/
-    /*^^^temp color^^^*/
-}
-
-
-.t {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    display: flex;
-}
-.t li {
-  border: solid transparent;
-  padding: 5px;
-}
-
-h2 {
-    color: #a4a6a4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 span {
-    font-size: 18px;
-    font-weight: bolder;
+  font-weight: bolder;
+  font-size: 25px;
 }
-
-footer {
+.contact {
+    list-style: none;
     display: flex;
     justify-content: center;
-    background-color: hsla(0, 0%, 0%, 0.6);
-    font-size: 10px;
-    color: #a4a6a4
+    align-items: center;
+}
+
+
+footer {
+  font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
 }
