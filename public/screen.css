@@ -6,57 +6,93 @@ html {}
 body {
     margin: 0;
     font: 18px font-family: 'PT Sans Narrow', sans-serif;
-    background-color: gray;
+
+  background: #F3904F; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #F3904F , #3B4371); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #F3904F , #3B4371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .border {}
 
-header {
+header {}
 
-}
 .intro ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     list-style: none;
 }
 
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 60px;
+}
+
+.intro img {
+    border: solid;
+    border-radius: 40px;
+    margin: 20px
+}
+
+.intro ul {
+    border: solid;
+    border-color: rgb(23, 23, 23);
+    background-color: rgb(15, 89, 125);
+    border-radius: 8px;
+}
+
 .pics img {
-  border: solid;
-  border-radius: 10px;
-  margin-left: 10px;
-}
- .pics {
-list-style: none;
-/*border: solid transparent;*/
-padding: 10px;
-margin: 10px;
-display: flex;
-justify-content: center;
-align-items: center;
-
-
+    border: solid;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
-main{
-
-}
-
-.tiy img {
-
-}
-
-span {
-  font-weight: bolder;
-  font-size: 25px;
-}
-.contact {
+.pics {
+    padding: 20px;
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+main {}
+
+.tiy {
+    background-color: rgb(15, 89, 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-color: inherit;
+    margin: 10px;
+}
+
+.tiy img {
+    border: transparent;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+span {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.contact {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 footer {
-  font-size: 10px;
+    font-size: 10px;
     display: flex;
     justify-content: flex-end;
     margin: 0;
